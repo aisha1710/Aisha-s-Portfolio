@@ -1,0 +1,21 @@
+.links {
+}
+
+header h2 {
+  color: red;
+  background-color: aqua;
+  width: 100px;
+  height: 50px;
+  border-style: dashed;
+  border-color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+ul {
+  text-align: right;
+}
+li {
+  display: inline;
+  font-size: 25px;
+}
