@@ -1,0 +1,69 @@
+html {
+  font-family: "Courier New", Courier, monospace;
+  height: 0%;
+}
+body {
+  margin: 0%;
+  background-color: var(--nyanza);
+}
+h1 {
+  border: 4px;
+  border-style: solid;
+  border-color: whitesmoke;
+  padding: 0.5em;
+  margin-top: 10px;
+  text-align: center;
+  display: inline;
+}
+:root {
+  --nyanza: #d8f3dcff;
+  --turquoise-green: #b7e4c7ff;
+  --turquoise-green-2: #95d5b2ff;
+  --ocean-green: #74c69dff;
+  --mint: #52b788ff;
+  --illuminating-emerald: #40916cff;
+  --bottle-green: #2d6a4fff;
+  --msu-green: #1b4332ff;
+  --dark-jungle-green: #081c15ff;
+}
+
+header {
+  text-align: center;
+  background-color: var(--dark-jungle-green);
+  font-size: larger;
+  padding-top: 10px;
+  color: whitesmoke;
+}
+
+h2 {
+  color: var(--dark-jungle-green);
+  background-color: var(--turquoise-green);
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  border-color: black;
+  display: flex;
+  align-items: center;
+}
+ul {
+  text-align: right;
+}
+li {
+  display: inline;
+  font-size: 20px;
+}
+
+.list {
+  color: whitesmoke;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.mypicture {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
