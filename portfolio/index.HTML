@@ -4,61 +4,86 @@
     <meta charset="UTF-8" />
     <title>My portfolio</title>
     <link rel="stylesheet" href="./assets/style.css" />
-    <link href="https://css.gg/abstract.css" rel="stylesheet" />
+
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav class="nav">
+        <br />
+        <br />
         <h1><b>MY PORTFOLIO</b></h1>
-        <ul class="nav list">
-          <li>
-            <a href="#aboutme" class="list" style="text-decoration: none">
-              ABOUT ME</a
-            >
+        <ul class="navlist">
+          <li class="navbar">
+            <a href="#aboutme" class="list"> ABOUT ME</a>
           </li>
-          <li>
-            <a href="#project" class="list" style="text-decoration: none"
-              >PROJECT</a
-            >
+          <li class="navbar">
+            <a href="#project" class="list">PROJECT</a>
           </li>
-          <li>
-            <a href="#contact" class="list" style="text-decoration: none"
-              >CONTACT ME</a
-            >
+          <li class="navbar">
+            <a href="#contact" class="list">CONTACT ME</a>
           </li>
         </ul>
       </nav>
     </header>
+
     <main>
-      <section id="aboutme">
-        <h2>About me</h2>
+      
+        <aside>
+        <section id="aboutme">
+          
+          <div class="flex1">
+            
+             <h2>ABOUT ME</h2>
+             <p>
+             Hi, my name is <b>Aisha Hassan</b>. I am 21 years old. 
+             
+            </p>
+            <p></p>
+           
+            <img class="mypic"
+              src="./assets/images/IMG-7158.jpg"
+              alt="my picture"
+              width="200"
+              height="275"
+            />
+            
+          </div>
+        </section>
+      </aside>
 
-        <div class="mypicture">
-          <img
-            src="./assets/images/IMG-7158.jpg"
-            alt="my picture"
-            width="150"
-            height="200"
-          />
-        </div>
-        <div class="flex1">
-          <p>dkjlaskpokq</p>
-        </div>
-      </section>
+        <section id="project">
+          <div class="flex2">
+            <div class="main1">
+            <h2 >PROJECTS</h2>
+            <br><br><br><br>
+            <p>Here is one of my projects. Click on the picture to access page</p>
+            </div>
+            <div class="main2">
+            <a href="https://aisha1710.github.io/Marketing_agency/" target="_blank" ><img
+              id="marketing"
+              src="./assets/images/01-html-css-git-homework-demo.png"
+              alt="marketing agency project"
+              height="600"
+              width="400"
+              /></a>
+            </div>
+          </div>
+          
+        </section>
 
-      <section id="project">
-        <div class="flex2">
-          <h2>projects</h2>
-          <p>sjhisjl</p>
-        </div>
-      </section>
-
-      <section id="contact">
-        <div>
-          <h2>contact me</h2>
-          <p>jdkjhkAHSIxhk</p>
-        </div>
-      </section>
+        <section id="contact">
+          <div class="flex3">
+            <h2 class=>contact me</h2>
+            <div>
+              <ul class="contactslist">
+                <li class="end"><h3>Email: Faisha879@gmail.com</h3></li>
+                <li class="end"><h3>Github: Aisha1710</h3></li>
+                <li class="end"><h3>Phone: 07931295294</h3></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
     <p></p>
   </body>

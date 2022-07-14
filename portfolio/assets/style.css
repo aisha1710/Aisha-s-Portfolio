@@ -1,17 +1,18 @@
 html {
   font-family: "Courier New", Courier, monospace;
-  height: 0%;
+  margin: 0%;
 }
 body {
-  margin: 0%;
   background-color: var(--nyanza);
 }
+p {
+  padding: 50px;
+}
 h1 {
-  border: 4px;
   border-style: solid;
   border-color: whitesmoke;
   padding: 0.5em;
-  margin-top: 10px;
+
   text-align: center;
   display: inline;
 }
@@ -27,43 +28,143 @@ h1 {
   --dark-jungle-green: #081c15ff;
 }
 
-header {
+.header {
   text-align: center;
   background-color: var(--dark-jungle-green);
   font-size: larger;
-  padding-top: 10px;
+
   color: whitesmoke;
 }
 
 h2 {
-  color: var(--dark-jungle-green);
-  background-color: var(--turquoise-green);
-  text-align: center;
-  width: 100px;
+  color: black;
+  background-color: var(--ocean-green);
+  width: 200px;
   height: 50px;
+  border-style: solid;
   border-color: black;
   display: flex;
+  justify-content: center;
+  text-align: center;
   align-items: center;
 }
-ul {
+
+#main-project {
+  margin-left: 0%;
+}
+#marketing {
+  margin-top: 5px;
+}
+
+.mypic {
+  display: flex;
+  justify-content: flex-end;
+  align-self: auto;
+}
+
+.navlist {
   text-align: right;
 }
-li {
+.navbar {
   display: inline;
   font-size: 20px;
+  position: relative;
 }
 
 .list {
   color: whitesmoke;
   padding-right: 10px;
-  padding-bottom: 10px;
+  text-decoration: none;
 }
+
 .mypicture {
   display: flex;
 }
+.mypic {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
 
+p {
+  font-size: 20px;
+}
+.flex1 {
+  background-color: var(--turquoise-green);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 50px;
+  align-content: center;
+  justify-content: center;
+  border: 0.5em solid black;
+}
+.flex2 {
+  background-color: var(--turquoise-green-2);
+  display: flex;
+  flex-wrap: wrap;
+  border: 0.5em solid black;
+  border-top: 0em;
+}
+.flex3 {
+  background-color: var(--ocean-green);
+  text-align: right;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 0.5em solid black;
+  border-top: 0em;
+}
+img {
+  border: 7px solid var(--mint);
+}
+.aboutme {
+  flex-direction: row;
+  padding: 50px;
+  align-items: center;
+}
+.contactslist {
+  display: block;
+}
+.main1 {
+  display: flex;
+  align-items: flex-start;
+  align-self: auto;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-start;
+  width: 40%;
+  align-items: center;
+}
+.main2 {
+  display: flex;
+  align-content: flex-end;
+  justify-content: center;
+}
+.main3 {
+  text-align: center;
+}
+.end {
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  text-decoration: dashed;
+}
+.flex2 a {
+  float: right;
+  justify-content: right;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 992px) {
+  .header {
+    background: var(--bottle-green);
+  }
+}
 @media screen and (max-width: 768px) {
-  .card {
-    width: 100%;
+  .header {
+    background-color: var(--msu-green);
   }
 }
