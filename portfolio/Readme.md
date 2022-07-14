@@ -8,11 +8,14 @@ This file includes a link and screenshot showing the HTML file named Aishas_port
 
 - Header, main and footer
 - multiple sections; about me, projects and contact me
-- clickable UL which take you to different sections of the page
-- clickable image of my previous project
+- clickable UL which takes you to different sections of the page
+- clickable image of my previous project which takes you to deployed page
 - Responsive layout
--
 
 ### Link
 
 https://aisha1710.github.io/Aisha-s-Portfolio/
+
+### Screenshot of Aishas_portfolio page
+
+![screenshot of portfolio](<./assets/images/127.0.0.1_5501_portfolio_index.HTML%20(1).png>)
