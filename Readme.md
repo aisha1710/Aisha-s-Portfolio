@@ -16,6 +16,6 @@ This file includes a link and screenshot showing the HTML file named Aishas_port
 
 https://aisha1710.github.io/Aisha-s-Portfolio/
 
-### Screenshot of Aishas_portfolio page
+### Screenshot of Aisha's portfolio page
 
-![screenshot of portfolio](<./assets/images/127.0.0.1_5501_portfolio_index.HTML%20(1).png>)
+![screenshot of portfolio](<./assets/images/127.0.0.1_5501_index.html%20(5).png>)
