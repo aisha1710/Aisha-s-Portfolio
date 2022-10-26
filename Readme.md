@@ -18,4 +18,4 @@ https://aisha1710.github.io/Aisha-s-Portfolio/
 
 ### Screenshot of Aisha's portfolio page
 
-![screenshot of portfolio](<./assets/images/127.0.0.1_5501_index.html%20(5).png>)
+![screenshot of portfolio]()
